@@ -16,7 +16,7 @@ import pandas as pd
 import time
 
 driver = webdriver.Chrome(executable_path='C:\scraping\chromedriver.exe')
-target = "@TheQuartering" # hardcoded
+target = "@YOUR TARGET" # hardcoded
 
 def login ():
     driver.get('https://twitter.com/login')
